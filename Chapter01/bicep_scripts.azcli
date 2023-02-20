@@ -1,0 +1,13 @@
+# Bicep Scripts
+
+# List all Bicep commands
+az bicep --help
+
+# Check current installed Bicep language version
+az bicep version
+
+# Update the Bicep language to the latest version
+az bicep upgrade
+
+# Install a specific Bicep language version
+az bicep install --version v0.13.1
