@@ -1,4 +1,4 @@
-# Bicep Scripts
+# bicep_scripts.azcli
 
 # List all Bicep commands
 az bicep --help
