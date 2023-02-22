@@ -1,6 +1,7 @@
 // simple_storage.bicep
 
 @description('The Azure region for the deployment')
+param myCompanyName string = 'KinetEco'
 param location string = resourceGroup().location
 
 @description('')
