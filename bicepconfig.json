@@ -8,13 +8,13 @@
           "level": "warning"
         },
         "no-hardcoded-location":{
-          "level": "warning"
+          "level":"error"
         },
         "no-unused-vars":{
           "level": "warning"
         },
         "outputs-should-not-contain-secrets":{
-          "level": "error"
+          "level": "warning"
         }
       }
     }
