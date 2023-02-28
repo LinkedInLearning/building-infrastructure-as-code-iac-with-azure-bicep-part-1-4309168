@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_bicep_webapp_01_name": {
+            "value": null
+        },
+        "serverfarms_asp_bicep_webapps_name": {
+            "value": null
+        },
+        "components_bicep_webapp_insights_name": {
+            "value": null
+        },
+        "dashboards_589d4b9b_a3bd_41a4_81ce_045cd178c6e2_dashboard_name": {
+            "value": null
+        },
+        "workspaces_DefaultWorkspace_e4c4d422_9526_4abc_bd5d_f74409a79551_EUS2_externalid": {
+            "value": null
+        }
+    }
+}
