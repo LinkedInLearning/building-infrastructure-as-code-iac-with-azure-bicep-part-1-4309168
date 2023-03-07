@@ -18,5 +18,13 @@
         }
       }
     }
+  },
+  "moduleAliases": {
+    "br": {
+      "KinetEcoBicepModules": {
+        "registry": "kinetecodevregistry.azurecr.io",
+        "modulePath": "bicep/modules"
+      } 
+    }
   }
 }
