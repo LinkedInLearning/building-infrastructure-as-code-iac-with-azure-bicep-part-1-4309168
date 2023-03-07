@@ -9,8 +9,8 @@ param storageAccountType string = 'Standard_LRS'
 @description('Azure region for resource deployment.')
 param location string = resourceGroup().location
 
-@description('')
-param stgName string = 'stg36${uniqueString(resourceGroup().id)}'
+@description('KinetEco storage account name')
+param stgName string = 'stg${uniqueString(resourceGroup().id)}'
 
 resource stgResource 'Microsoft.Storage/storageAccounts@2021-04-01' = {
   name:  stgName
