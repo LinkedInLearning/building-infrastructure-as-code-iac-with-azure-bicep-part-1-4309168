@@ -1,8 +1,9 @@
 // simple_storage.bicep
 
 @description('The Azure region for the deployment')
-param accountName string = 'kinetecostg0220'
 param location string = resourceGroup().location
+
+param accountName string = 'kinetecostg0220'
 param aspName string = 'asp-bicepwebsites0220'
 
 @description('A simple test storage account')
