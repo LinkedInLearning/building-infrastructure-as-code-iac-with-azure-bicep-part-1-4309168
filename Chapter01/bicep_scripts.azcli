@@ -17,6 +17,9 @@ az bicep install --version v0.13.1
 az login --use-device-code
 az account show --query name
 
+# Set primary subscription if you have multiple
+az account set --subscription "Your subscription name"  
+
 # List all RG names
 az group list -o table
 
