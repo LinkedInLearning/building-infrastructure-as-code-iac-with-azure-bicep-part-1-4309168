@@ -12,7 +12,6 @@ az bicep upgrade
 # Install a specific Bicep language version
 az bicep install --version v0.13.1
 
-
 # Login to Azure
 az login --use-device-code
 az account show --query name
