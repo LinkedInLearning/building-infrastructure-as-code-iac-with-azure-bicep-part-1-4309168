@@ -26,3 +26,6 @@ az group list -o table
 # Deploy parent-child-storage.bicep
 az group create -n 'bicep-part1-stg-eastus2' -l 'eastus2'
 az deployment group create -g 'bicep-part1-stg-eastus2' -f .\Chapter01\parent-child-storage.bicep -c
+
+# Deploy kineteco-vnet
+az deployment group create --name myDeployment --resource-group 'bicep-part1-stg-eastus2' --template-file .\Chapter03\challenge\kineteco-vnet.bicep --parameters vnetName=myVnet addressPrefix=10.0.0.0/16 subnet1Name=mySubnet1 subnet1Prefix=10.0.1.0/24 subnet2Name=mySubnet2 subnet2Prefix=10.0.2.0/24
